@@ -4,7 +4,7 @@ Public Class Conexion
     Public Shared Sub Connect()
         Try
             ' Configura la cadena de conexión con el tiempo de espera
-            cnx.ConnectionString = "Data Source=LAPTOP-MJQABIHM\SQLEXPRESS; Initial Catalog=VentasVehiculos;Integrated Security=True;Connect Timeout=180"
+            cnx.ConnectionString = "Data Source=LAPTOP-MJQABIHM\SQLEXPRESS; Initial Catalog=VentasVehiculos;Integrated Security=True;Connect Timeout=300"
 
             ' Abre la conexión
             Call cnx.Open()
